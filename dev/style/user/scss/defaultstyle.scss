@@ -1,0 +1,55 @@
+/* Default style */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+*:focus {
+  outline: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+ol,
+ul,
+dl {
+  list-style: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+button {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+[hidden] {
+  display: none !important;
+}
